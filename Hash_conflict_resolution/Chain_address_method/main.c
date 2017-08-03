@@ -8,7 +8,7 @@
 #include"chain_address_method.h"
  
 //总共有n个节点桶的个数m个所以查找时间是n/m  O(1)
-//链地址发的a=n/m 可以大于1 就会有很多在同一个桶中
+//链地址法的a=n/m 可以大于1 就会有很多在同一个桶中
 //二次探测法要预留空间  a 不可以大于0.5
 
 typedef struct  stu{
